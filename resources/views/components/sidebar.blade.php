@@ -14,9 +14,9 @@
             <li class="dropdown">
                 <a href="javascript:void(0)">
                     <iconify-icon icon="solar:home-smile-angle-outline" class="menu-icon"></iconify-icon>
-                    <span>Dashboard</span>
+                    <span>Datos del sistema</span>
                 </a>
-                <ul class="sidebar-submenu">
+                {{-- <ul class="sidebar-submenu">
                     <li>
                         <a href="{{ route('index') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> AI</a>
                     </li>
@@ -32,37 +32,37 @@
                     <li>
                         <a href="{{ route('index5') }}"><i class="ri-circle-fill circle-icon text-success-main w-auto"></i> Investment</a>
                     </li>
-                </ul>
+                </ul> --}}
             </li>
-            <li class="sidebar-menu-group-title">Application</li>
+            <li class="sidebar-menu-group-title">Menu</li>
             <li>
                 <a href="{{ route('email') }}">
                     <iconify-icon icon="mage:email" class="menu-icon"></iconify-icon>
-                    <span>Email</span>
+                    <span>Inscripciones</span>
                 </a>
             </li>
             <li>
                 <a href="{{ route('chatMessage') }}">
                     <iconify-icon icon="bi:chat-dots" class="menu-icon"></iconify-icon>
-                    <span>Chat</span>
+                    <span>Usuarios</span>
                 </a>
             </li>
             <li>
                 <a href="{{ route('calendar') }}">
                     <iconify-icon icon="solar:calendar-outline" class="menu-icon"></iconify-icon>
-                    <span>Calendar</span>
+                    <span>Cursos</span>
                 </a>
             </li>
             <li>
                 <a href="{{ route('kanban') }}">
                     <iconify-icon icon="material-symbols:map-outline" class="menu-icon"></iconify-icon>
-                    <span>Kanban</span>
+                    <span>Expositores</span>
                 </a>
             </li>
             <li class="dropdown">
                 <a href="javascript:void(0)">
                     <iconify-icon icon="hugeicons:invoice-03" class="menu-icon"></iconify-icon>
-                    <span>Invoice</span>
+                    <span>Certificados</span>
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
@@ -103,7 +103,7 @@
                 </ul>
             </li>
 
-            <li class="sidebar-menu-group-title">UI Elements</li>
+            {{-- <li class="sidebar-menu-group-title">UI Elements</li>
 
             <li class="dropdown">
                 <a href="javascript:void(0)">
@@ -331,7 +331,7 @@
                         <a href="{{ route('paymentGateway') }}"><i class="ri-circle-fill circle-icon text-danger-main w-auto"></i> Payment Gateway</a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
         </ul>
     </div>
 </aside>
